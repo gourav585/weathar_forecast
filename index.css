@@ -1,0 +1,58 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-image: url(bbb.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;
+  }
+  
+  .weather-container {
+    background-color: rgb(173, 173, 248);
+    padding: 100px;
+    
+    box-shadow: 0 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color:white;
+    text-color: black;
+  }
+  
+  button {
+    padding: 12px;
+   background-color: #1e2167;
+   color: white;
+   border: 2px solid white;
+   border-radius: 11px;
+   font-size: 15px;
+   cursor: pointer;
+   margin-top: 10px;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #location {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #080909;
+  }
+  
+  #temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d2a985;
+  }
+  #description {
+    font-size: 1.5rem;
+    color: #226ba3;
+  }
